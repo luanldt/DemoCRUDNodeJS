@@ -1,0 +1,19 @@
+{
+  "name": "crub_demo",
+  "version": "1.0.0",
+  "description": "Demo CRUD in mongodb and nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luandeptrai",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moongoose": "0.0.5",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
