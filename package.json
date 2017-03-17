@@ -4,7 +4,7 @@
   "description": "Demo CRUD in mongodb and nodejs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm install && node app.js"
   },
   "author": "luandeptrai",
   "license": "ISC",
