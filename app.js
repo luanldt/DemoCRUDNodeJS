@@ -16,8 +16,8 @@ MongoClient.connect('mongodb://crud_db:minhluan@ds045882.mlab.com:45882/crud_db'
 	if(err) return console.log(err);
 	
 	db = database;
-
-	app.listen(3000, () => {
+	const PORT = process.env.PORT || 3000;
+	app.listen(PORT, () => {
 		console.log('listening on 3000');
 	});
 	
