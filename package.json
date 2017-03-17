@@ -4,7 +4,7 @@
   "description": "Demo CRUD in mongodb and nodejs",
   "main": "app.js",
   "scripts": {
-    "start": "npm install && node ./app.js"
+    "start": "npm install && ./node_modules/.bin/nodemon app.js"
   },
   "author": "luandeptrai",
   "license": "ISC",
